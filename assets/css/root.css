@@ -3,6 +3,7 @@
 
     --text-sm-: 16px;
     --text-md-: 18px;
+    --text-xl:48px;
     --text-2xl:64px;
 
 
@@ -34,4 +35,7 @@
 }
 .fs-2xl{
     font-size: var(--text-2xl);
+}
+.fs-xl {
+    font-size: var(--text-xl);
 }
