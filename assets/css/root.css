@@ -1,0 +1,35 @@
+:root {
+    /* -----font-size------ */
+
+    --text-sm-: 16px;
+    --text-md-: 18px;
+    --text-2xl:64px;
+
+
+    /* ------------font-color---- */
+
+    --white-color: #FDFCFC;
+    --black-color: #000000;
+    --purple-color: linear-gradient(130.88deg, #A854E9 -9.14%, #4F91FC 283.16%);
+}
+
+.bg-white {
+    background: var(--white-color);
+}
+
+.fc-black {
+    color: var(--black-color);
+}
+.fc-white{
+    color: var(--white-color);
+}
+.bg-purple{
+    background: var(--purple-color);
+}
+
+.fs-sm{
+    font-size: var(--text-sm);
+}
+.fs-2xl{
+    font-size: var(--text-2xl);
+}
