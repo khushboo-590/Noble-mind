@@ -99,6 +99,42 @@
 .flex-column {
     flex-direction: column;
 }
+
+/* -----section--4--- */
+.card-1 {
+    max-width: 364px;
+    border: 0.5px solid rgba(0, 0, 0, 0.24);
+    border-radius: 16px;
+    padding: 20px 15px 44px 20px;
+}
+
+.card-1:hover {
+    border: none;
+    box-shadow: 0px 9px 50px rgba(0, 0, 0, 0.12);
+}
+
+.max-w-324 {
+    max-width: 324px;
+}
+
+.circle-box {
+
+    width: 72px;
+    height: 72px;
+    background: linear-gradient(130.88deg, rgba(168, 84, 233, 0.16) -9.14%, rgba(79, 145, 252, 0.16) 283.16%);
+    border-radius: 80px;
+}
+
+.card-1:hover .circle-box svg path {
+    fill: #FDFCFC;
+    cursor: pointer;
+}
+
+.card-1:hover .circle-box {
+    background: #A854E9;
+
+}
+
 /* -----section-5-- */
 .my-40 {
     margin-top: 40px;
@@ -144,9 +180,11 @@
 .ml-50 {
     margin-left: 50px;
 }
-.shadow-3{
+
+.shadow-3 {
     bottom: 590px;
 }
+
 .shadow {
     position: absolute;
     width: 268.97px;
@@ -163,8 +201,8 @@
     height: 275.39px;
     right: 1109.53px;
     bottom: -29.39px;
-   
- 
+
+
 }
 
 /* ------section-7------    */
