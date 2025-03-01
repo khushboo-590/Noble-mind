@@ -16,7 +16,9 @@
 .bg-white {
     background: var(--white-color);
 }
-
+.bg-black{
+    background: var(--black-color);
+}
 .fc-black {
     color: var(--black-color);
 }
