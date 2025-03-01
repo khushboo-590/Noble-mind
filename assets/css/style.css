@@ -101,6 +101,35 @@
     flex-direction: column;
 }
 
+/* -------section-6=-------- */
+.max-w-456 {
+    max-width: 456px;
+}
+
+.ml-50 {
+    margin-left: 50px;
+}
+
+.shadow {
+    position: absolute;
+    width: 268.97px;
+    height: 275.39px;
+    right: 100px;
+    bottom: 280px;
+    background: linear-gradient(130.88deg, #A854E9 -9.14%, #4F91FC 283.16%);
+    opacity: 0.5;
+    filter: blur(182.413px);
+    transform: rotate(39.86deg);
+}
+
+.shadow-1 {
+    height: 275.39px;
+    right: 1109.53px;
+    bottom: -29.39px;
+   
+ 
+}
+
 /* ------section-7------    */
 .position-relative {
     position: relative;
@@ -123,40 +152,49 @@
     position: relative;
     z-index: 1;
 }
-.radius{
+
+.radius {
     border-radius: 16px;
 }
-.btn-1{
+
+.btn-1 {
     background: var(--white-color);
     color: #A854E9;
 }
-.py-70{
+
+.py-70 {
     padding-top: 70px;
     padding-bottom: 70px;
 }
-.layer-1{
-        bottom: 0;
+
+.layer-1 {
+    bottom: 0;
     transform: translateY(-130px);
 
 }
-.max-w-1140{
+
+.max-w-1140 {
     max-width: 1140px;
 }
-.layer{
-   transform: translateY(-34px);
-  }
-.max-auto{
+
+.layer {
+    transform: translateY(-34px);
+}
+
+.max-auto {
     margin-left: auto;
     margin-right: auto;
 }
-.z-1{
+
+.z-1 {
     z-index: 1;
 }
 
-.py-130{
+.py-130 {
     padding-top: 130px;
     padding-bottom: 130px;
 }
+
 /* -----footer------ */
 
 .footer {

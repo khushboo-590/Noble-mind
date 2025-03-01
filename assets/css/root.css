@@ -10,12 +10,16 @@
     /* ------------font-color---- */
 
     --white-color: #FDFCFC;
+    --light-white:#EFEFEF;
     --black-color: #000000;
     --purple-color: linear-gradient(130.88deg, #A854E9 -9.14%, #4F91FC 283.16%);
 }
 
 .bg-white {
     background: var(--white-color);
+}
+.bg-light-white{
+    background: var(--light-white);
 }
 .bg-black{
     background: var(--black-color);
