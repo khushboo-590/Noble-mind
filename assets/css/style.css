@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/@xz/fonts@1/serve/plus-jakarta-display.min.css");
 @import url(/assets/css/root.css);
 
 
 .font-family {
-    font-family: "Plus Jakarta Sans", sans-serif;
+    font-family: "Plus Jakarta Display", sans-serif;
 }
 
 .max-w-1440px {
