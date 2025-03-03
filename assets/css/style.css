@@ -654,6 +654,9 @@ z-index: 1;}
     .icon-shadow {
         display: none;
     }
+        .max-w-385{
+            max-width: none;
+        }
 
 
 }
