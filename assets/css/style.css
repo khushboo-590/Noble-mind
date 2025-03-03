@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
 @import url(/assets/css/root.css);
 
+
 .font-family {
     font-family: "Plus Jakarta Sans", sans-serif;
 }
@@ -55,8 +56,13 @@
 }
 
 .links:hover {
-    text-decoration: underline var(--purple-color);
-    color: var(--black-color);
+    text-decoration: underline #a854e9;
+    color: black;
+    opacity: unset;
+}
+
+.ml-150 {
+    margin-left: 150px;
 }
 
 .btn {
@@ -163,6 +169,25 @@
     max-width: 102px;
 }
 
+#backToTop {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+    background-color: #A854E9;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 25px;
+    transition: opacity 0.3s;
+    z-index: 1;
+}
+
+.cursor-ponier {
+    cursor: pointer;
+}
+
 /* -----sectin-2----- */
 .max-w-536 {
     max-width: 536px;
@@ -213,7 +238,8 @@
     border-radius: 16px;
     border: 0.5px solid#A854E9;
 }
-
+.box:hover{
+    box-shadow: 0px 9px 50px rgba(0, 0, 0, 0.12);}
 .circle-1 {
     width: 32px;
     height: 32px;
@@ -529,7 +555,7 @@
         width: 100%;
         background-color: #A854E9;
         transition: right 200ms linear;
-        z-index: 1;
+        z-index: 3;
 
         ul {
             flex-direction: column;
@@ -548,7 +574,7 @@
         flex-direction: column;
         justify-content: space-between;
         cursor: pointer;
-        z-index: 2;
+        z-index: 5;
 
         span {
             width: 100%;
@@ -571,6 +597,15 @@
     .menu-icon.active span:last-of-type {
         transform: rotate(-40deg);
         transform-origin: left;
+    }
+
+    .ml-150 {
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+
+    .ml-40 {
+        margin-left: 0;
     }
 
     .width {
@@ -596,9 +631,11 @@
     .card-icon {
         width: 0;
     }
-        .icon-shadow{
-            display: none;
-        }
+
+    .icon-shadow {
+        display: none;
+    }
+
 
 }
 
@@ -666,5 +703,8 @@
         margin-top: 20px;
     }
 
+    .margin {
+        margin-top: 30px;
+    }
 
 }
