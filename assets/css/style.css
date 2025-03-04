@@ -242,10 +242,11 @@
     margin-top: 130px;
 }
 
-.top-43{
+.top-43 {
     top: 320px;
 }
-.left-47{
+
+.left-47 {
     left: 47%;
 }
 
@@ -635,12 +636,9 @@
         text-align: center;
     }
 
-    .shadow-box {
-        max-width: 773px;
+    .icon-shadow {
+        display: none;
     }
-.icon-shadow{
-    display: none;
-}
 }
 
 @media(max-width:1200px) {
@@ -656,11 +654,9 @@
     .mt-130 {
         margin-top: 0;
     }
-       
-         
+
+
 }
-
-
 
 @media (max-width:991.98px) {
 
@@ -701,26 +697,19 @@
         text-align: center;
     }
 
-    /* .card-icon {
-        width: 0;
-    }
-
-    .icon-shadow {
-        display: none;
-    } */
 
     .max-w-385 {
         max-width: none;
     }
- 
+
 
     .mt-90 {
         margin-top: 90px;
     }
 
     .shadow-box {
-        max-width: 573px;
-        transform: translate(-220px);
+        transform: translateY(20px);
+        background-color: #a854e9;
 
     }
 
@@ -738,7 +727,6 @@
     .space {
         margin-top: 20px;
     }
-      
 
 }
 
@@ -775,19 +763,23 @@
         padding-bottom: 80px;
     }
 
+    .shadow-box {
+
+        padding: 10px;
+
+    }
+
+    .straight {
+        display: none;
+    }
 
     .text-bottom {
         padding-bottom: 20px;
     }
 
-    .shadow-box {
-        display: none !important;
-    }
-
     .margin-1 {
         margin-top: 50px;
     }
-
 }
 
 @media(max-width:567px) {
@@ -799,8 +791,13 @@
     .display {
         flex-direction: column;
     }
-    .mb-20{
+
+    .mb-20 {
         margin-bottom: 20px;
+    }
+
+    .year-box {
+        max-width: none;
     }
 
 }
