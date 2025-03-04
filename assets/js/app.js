@@ -33,9 +33,6 @@ backToTopButton.addEventListener("click", function () {
 
 
 
-
-
-
 // ------section - 3-----
 const cardData = [
 
@@ -176,13 +173,6 @@ cardContainer.innerHTML = cardData.map(card => `
 
 
 
-
-
-
-
-
-
-
 // // -----section-4-------
 const cardsData = [
     {
@@ -242,6 +232,33 @@ container.innerHTML = cardsData.map(card => `
         `)
     .join('');
 
+
+// ------------silder-------------
+
+$(document).ready(function () {
+    $('.my-file').slick({
+        dots: true,
+        infinite: true,
+        speed: 250,
+        slidesToShow: 2,
+        autoplay: true,
+        autoplaySpeed: 2000,
+        prevArrow: false,
+        nextArrow: false,
+        responsive: [
+            
+            {
+                breakpoint: 576,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            }
+          
+        ]
+
+    });
+});
 
 
 

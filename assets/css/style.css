@@ -782,7 +782,7 @@
     }
 }
 
-@media(max-width:567px) {
+@media(max-width:576px) {
 
     .margin {
         margin-top: 30px;
@@ -790,6 +790,7 @@
 
     .display {
         flex-direction: column;
+        display: none;
     }
 
     .mb-20 {
@@ -799,5 +800,8 @@
     .year-box {
         max-width: none;
     }
-
+.my-file{
+    display: flex;
+    gap: 20px;
+}
 }
