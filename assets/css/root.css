@@ -1,8 +1,8 @@
 :root {
     /* -----font-size------ */
 
-    --text-sm-: 16px;
-    --text-md-: 18px;
+    --text-sm: 16px;
+    --text-md: 24px;
     --text-xl:48px;
     --text-3xl:64px;
     --text-2xl:60px;
@@ -37,6 +37,9 @@
 
 .fs-sm{
     font-size: var(--text-sm);
+}
+.fs-md{
+    font-size: var(--text-md);
 }
 .fs-2xl{
     font-size: var(--text-2xl);

@@ -26,6 +26,10 @@
     line-height: 24px;
 }
 
+.lh-33 {
+    line-height: 33.6px;
+}
+
 .lh-66 {
     line-height: 66px;
 }
@@ -60,9 +64,6 @@
     opacity: unset;
 }
 
-.ml-200 {
-    margin-left: 200px;
-}
 
 .mt-30 {
     margin-top: 30px;
@@ -80,16 +81,40 @@
     padding-bottom: 18px;
 }
 
-/* -----section-1----- */
+.menu-lines {
+    width: 30px;
+    height: 5px;
+    margin-bottom: 5px;
+    display: flex;
+    transition: all 300ms linear;
+    transform-origin: left;
+    border-radius: 10px;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.rotate-42 {
+    transform: rotate(42deg);
+}
+
+.z-5 {
+    z-index: 5;
+}
+
+.z-6 {
+    z-index: 6;
+}
+
+.rotate-43 {
+    transform: rotate(-43deg);
+}
+
+/* -----hero-section----- */
 
 .max-w-948 {
     max-width: 948px;
-}
-
-.heading {
-    text-align: center;
-    text-transform: capitalize;
-
 }
 
 .fc-purple {
@@ -104,10 +129,8 @@
     margin-top: 50px;
 }
 
-
 .content {
     opacity: 0.8;
-
 }
 
 .ml-40 {
@@ -133,9 +156,8 @@
 
 .year-box {
     gap: 12px;
-    width: 206.71px;
+    max-width: 206.71px;
 }
-
 
 .z-2 {
     z-index: 2;
@@ -172,8 +194,8 @@
 }
 
 .img-circle-1 {
-    transform: translateY(-60px);
-    right: 105px;
+    transform: translateY(-50px);
+    right: 110px;
     z-index: -1;
 }
 
@@ -192,11 +214,8 @@
     z-index: 1;
 }
 
-.cursor-ponier {
-    cursor: pointer;
-}
 
-/* -----sectin-2----- */
+/* -----sectin-1----- */
 .max-w-536 {
     max-width: 536px;
 }
@@ -223,18 +242,14 @@
     margin-top: 130px;
 }
 
-.card-icon {
-    position: absolute;
-    width: 88px;
-    height: 88px;
-    transform: translateY(-340px);
-    margin-left: 230px;
-    border-radius: 92px;
-    background: #FDFCFC;
-    box-shadow: 0px 0px 17.6901px rgba(0, 0, 0, 0.16);
+.top-43{
+    top: 320px;
+}
+.left-47{
+    left: 47%;
 }
 
-/* ------section-3----- */
+/* ------section-2----- */
 .max-w-461 {
     max-width: 461px;
 }
@@ -242,7 +257,6 @@
 .box {
     padding: 12px;
     width: 462px;
-    /* backdrop-filter: blur(26px); */
     border-radius: 16px;
     border: 0.5px solid#A854E9;
 }
@@ -266,7 +280,8 @@
     margin-bottom: 12px;
 }
 
-/* -----section--4--- */
+
+/* -----section--3--- */
 .card-1 {
     max-width: 364px;
     height: 270px;
@@ -286,7 +301,6 @@
 }
 
 .circle-box {
-
     width: 72px;
     height: 72px;
     background: linear-gradient(130.88deg, rgba(168, 84, 233, 0.16) -9.14%, rgba(79, 145, 252, 0.16) 283.16%);
@@ -300,10 +314,19 @@
 
 .card-1:hover .circle-box {
     background: #A854E9;
-
 }
 
-/* -----section-5-- */
+
+.circle-common-class {
+    position: absolute;
+    max-width: 220px;
+    height: 220px;
+    width: 100%;
+    background: linear-gradient(130.88deg, #A854E9 -9.14%, #4F91FC 283.16%);
+    filter: blur(200px);
+}
+
+/* -----section-4-- */
 .my-40 {
     margin-top: 40px;
     margin-bottom: 40px;
@@ -332,7 +355,6 @@
 }
 
 .circle {
-
     width: 24px;
     height: 24px;
     background: linear-gradient(130.88deg, rgba(168, 84, 233, 0.16) -9.14%, rgba(79, 145, 252, 0.16) 283.16%);
@@ -341,7 +363,17 @@
 
 }
 
-/* -------section-6=-------- */
+.circle-9 {
+    right: 7%;
+}
+
+.circle-10 {
+    left: 0;
+    z-index: 1;
+}
+
+
+/* -------section-5=-------- */
 .max-w-456 {
     max-width: 456px;
 }
@@ -383,7 +415,6 @@
     bottom: -29.39px;
     z-index: -1;
 
-
 }
 
 .shadow-top {
@@ -400,7 +431,7 @@
     z-index: 1;
 }
 
-/* ------section-7------    */
+/* ------section-6------    */
 .position-relative {
     position: relative;
 }
@@ -448,8 +479,6 @@
     left: 0;
     right: 0;
     bottom: 80px;
-
-
 }
 
 .max-w-1140 {
@@ -585,12 +614,10 @@
 
 @media(max-width:1240px) {
 
-    .layer,
-    .layer-1 {
-        max-width: 90%;
+    .img-circle-2,
+    .img-circle-1 {
+        display: none;
     }
-
-
 
     .justify {
         justify-content: unset;
@@ -599,7 +626,6 @@
     .gap-52 {
         gap: 20px;
     }
-
 
     .max-w-536 {
         max-width: none;
@@ -612,7 +638,9 @@
     .shadow-box {
         max-width: 773px;
     }
-
+.icon-shadow{
+    display: none;
+}
 }
 
 @media(max-width:1200px) {
@@ -628,67 +656,33 @@
     .mt-130 {
         margin-top: 0;
     }
+       
+         
 }
 
 
 
 @media (max-width:991.98px) {
 
-    .menu-list {
+    .nav-link {
+        display: flex !important;
         flex-direction: column;
+        width: 100%;
+        min-height: 100vh;
         position: fixed;
         justify-content: center;
-        top: 0;
-        right: -100%;
-        height: 100%;
-        width: 100%;
-        background-color: #A854E9;
-        transition: right 200ms linear;
-        z-index: 3;
-
-        ul {
-            flex-direction: column;
-
-        }
-    }
-
-    .menu-list.show {
-        right: 0;
-    }
-
-    .menu-icon {
-        display: flex;
-        width: 40px;
-        height: 30px;
-        flex-direction: column;
-        justify-content: space-between;
-        cursor: pointer;
+        bottom: 0;
+        right: -100% !important;
+        top: 0%;
+        transition: all 300ms linear !important;
         z-index: 5;
-
-        span {
-            width: 100%;
-            height: 5px;
-            background-color: #00060C;
-            border-radius: 4px;
-            transition: all 200ms linear;
-        }
+        backdrop-filter: blur(40px);
+        background: #FDFCFC;
     }
 
-    .menu-icon.active span:first-of-type {
-        transform: rotate(40deg);
-        transform-origin: left;
+    .show-navbar {
+        right: 0 !important;
     }
-
-    .menu-icon.active span:nth-child(2) {
-        height: 0;
-    }
-
-    .menu-icon.active span:last-of-type {
-        transform: rotate(-40deg);
-        transform-origin: left;
-    }
-
-
 
     .ml-40 {
         margin-left: 0;
@@ -707,22 +701,18 @@
         text-align: center;
     }
 
-    .card-icon {
+    /* .card-icon {
         width: 0;
     }
 
     .icon-shadow {
         display: none;
-    }
+    } */
 
     .max-w-385 {
         max-width: none;
     }
-
-    .img-circle-2,
-    .img-circle-1 {
-        display: none;
-    }
+ 
 
     .mt-90 {
         margin-top: 90px;
@@ -731,11 +721,10 @@
     .shadow-box {
         max-width: 573px;
         transform: translate(-220px);
-        
+
     }
 
     .display {
-
         justify-content: center;
         align-items: center;
         gap: 20px;
@@ -745,14 +734,11 @@
         margin-left: 0;
     }
 
-    .ml-200 {
-        margin-left: 0;
-        margin-top: 20px;
-    }
 
     .space {
         margin-top: 20px;
     }
+      
 
 }
 
@@ -812,11 +798,9 @@
 
     .display {
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 20px;
+    }
+    .mb-20{
+        margin-bottom: 20px;
     }
 
 }
-
-
